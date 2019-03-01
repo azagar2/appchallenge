@@ -11,7 +11,7 @@
       "title": "Green Space Recreation Features",
       "visibility": false,
       "popupInfo": {
-        "title": "{REC_NAME}",
+        "title": "{ParkFalName}",
         "fieldInfos": [
           {
             "fieldName": "OBJECTID",
@@ -177,9 +177,16 @@
           },
           {
             "fieldName": "REC_NAME",
-            "visible": true,
+            "visible": false,
             "isEditable": true,
             "label": "Park Facility Name"
+          },
+          {
+            "fieldName": "ParkFalName",
+            "label": "Recreation Feature Name",
+            "isEditable": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
           }
         ],
         "description": null,
@@ -314,7 +321,7 @@
         "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
         "name": "ArcGIS World Geocoding Service",
         "singleLineFieldName": "SingleLine",
-        "placeholder": "ArcGIS World Geocoding Service",
+        "placeholder": "Enter a location",
         "countryCode": "",
         "zoomScale": 100000,
         "maxSuggestions": 6,

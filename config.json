@@ -26,7 +26,7 @@
   "authorizedCrossOriginDomains": [],
   "title": "Halifax Urban Green Space",
   "subtitle": "<div class=\"attribute-custom-style\"><br /></div>",
-  "keepAppState": true,
+  "keepAppState": false,
   "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
@@ -124,7 +124,7 @@
         "placeholderIndex": 1,
         "id": "_27",
         "name": "About",
-        "label": "Help",
+        "label": "Information",
         "version": "2.11",
         "closeable": true,
         "uri": "widgets/About/Widget",
@@ -857,7 +857,7 @@
             "domain": null,
             "defaultValue": null
           },
-          "typeIdField": "PLAN_NAME"
+          "typeIdField": ""
         }
       }
     },

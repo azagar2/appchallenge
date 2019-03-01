@@ -78,7 +78,7 @@
                   "isChecked": false
                 }
               ],
-              "emptyLabel": "All",
+              "emptyLabel": "All Communities",
               "enableEmpty": true
             },
             "interactiveObj": {
@@ -205,7 +205,7 @@
                   "isChecked": false
                 }
               ],
-              "emptyLabel": "All",
+              "emptyLabel": "All Communities",
               "enableEmpty": true
             },
             "interactiveObj": {

@@ -61,7 +61,8 @@
       "filter": {
         "logicalOperator": "AND",
         "parts": [],
-        "expr": "1=1"
+        "expr": "1=1",
+        "displaySQL": "1=1"
       },
       "description": "Using Custom Metric ",
       "symbol": {
@@ -116,7 +117,8 @@
       "filter": {
         "logicalOperator": "AND",
         "parts": [],
-        "expr": "1=1"
+        "expr": "1=1",
+        "displaySQL": "1=1"
       },
       "description": "",
       "symbol": {
