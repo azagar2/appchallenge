@@ -79,7 +79,10 @@ ACom = Total area of community
 Data used by HUGS was supplied by open data sources. Our spatial data was acquired from the Halifax Regional Municipality [Open Data Portal](http://catalogue-hrm.opendata.arcgis.com/), and their public [ArcGIS Online Page](https://www.arcgis.com/home/search.html?q=owner%3Ahalifax_agol&start=1&sortOrder=true&sortField=relevance#content). The calculations were drawn from municipal documents and an article published in an open-access scientific journal (see *Calculations* for more details). All material referenced in our documentation was acquired from publicly available reports and articles.
 
 ## App Constraints
-The HUGS application has a few known constraints. The first noted constraint is the occasional slow rendering of the web map. We did not know how to fix this issue, but we determined that it does not have a profound impact on the application overall. A second constraint involves the user experience of the *Compare Communities* widget. After selecting a chart, the resulting screen is mainly blank with a small 'Apply' button in the upper right-hand corner (which a user must press to view the chart). We feel that this 'middle' screen is slightly unintuitive for users. Finally, the HUGS app does not perform optimally on web browsers such as Internet Explorer and Microsoft Edge.     
+The HUGS application has a few known constraints. The first noted constraint is the occasional slow rendering of the web map. We did not know how to fix this issue, but we determined that it does not have a profound impact on the application overall. A second constraint involves the user experience of the *Compare Communities* widget. After selecting a chart, the resulting screen is mainly blank with a small 'Apply' button in the upper right-hand corner (which a user must press to view the chart). We feel that this 'middle' screen is slightly unintuitive for users. Finally, the HUGS app does not perform optimally on web browsers such as Internet Explorer and Microsoft Edge.
+
+## App Deployment
+To deploy this app on your web server, please download the repository and follow these instructions: https://developers.arcgis.com/web-appbuilder/guide/xt-deploy-app.htm.     
 
 ## Licensing
 #### Application
