@@ -1,5 +1,5 @@
 # Halifax Urban Green Space (HUGS)
-### Team: Baes of Fundy <br> Submission for the 2019 Esri Canada App Challenge
+### Team: Baes of Fundy <br> Submission for the 2019 Esri Canada Centres of Excellence App Challenge
 
 #### Team Members:
 * Liam Gowan
