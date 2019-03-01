@@ -7,6 +7,9 @@
 * Kaleb McNeil
 * Andrea Zagar
 
+## Video
+[HUGS Video Submission](https://www.youtube.com/watch?v=e9fSdSycj5I)
+
 ## Mission Statement
 
 Access to public green space has become a cornerstone of sustainable urban development.
