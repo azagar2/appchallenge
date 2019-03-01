@@ -49,7 +49,8 @@ Our Green Space Proximity metric calculates the percentage of land per community
 
 Buffers were generated around green space features based on their zone standard, and then calculated relative to their communities as follows:
 
-``` Green Space Proximity = AOK / ACOM * 100
+```
+Green Space Proximity = AOK / ACOM * 100
 ```
 
 AOK = Total area in community that meets green space proximity standards<br>
@@ -59,25 +60,29 @@ ACOM = Total area of community
 
 Our second metric provides users with an alternate way of evaluating green space in their communities. Unlike Green Space Proximity, this metric accounts for green space accessibility, availability, and fragmentation based on an open access journal article<sup>[7](#footnote7)</sup>. Accessibility measures the average distance to the nearest park for each community using the Manhattan distance method. Availability measures the share of land dedicated to green space per community. Fragmentation measures the relative shape and size of a green space, where large parcels receive higher values and small, narrow parcels receive lower values. These factors were then normalized and converted into a weighted index from 1 to 10 for ease of interpretation.
 
-``` Accessibility = ADistTot / ADistCom
+```
+Accessibility = ADistTot / ADistCom
 ```
 
 ADistTot = Average distance to the nearest green space (entire study area)<br>
 ADistCom = Average distance to the nearest green space (per community)
 
-``` Availability = AGS / ACom
+```
+Availability = AGS / ACom
 ```
 
 AGS = Total area of green spaces (per community)<br>
 ACom = Total area of community
 
-``` Fragmentation = PGS / ACom
+```
+Fragmentation = PGS / ACom
 ```
 
 PGS = Total perimeter of green spaces (per community)<br>
 ACom = Total area of community
 
-``` Community Green Space Index = (Fragmentation x 1) + (Availability x 4.5) + (Accessibility x 4.5)
+```
+Community Green Space Index = (Fragmentation x 1) + (Availability x 4.5) + (Accessibility x 4.5)
 ```
 
 ## Data Sources
